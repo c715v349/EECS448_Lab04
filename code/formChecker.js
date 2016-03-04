@@ -27,7 +27,7 @@ function validation()
 	else if (human < 0 || dino < 0 || feces < 0)
 	{
 		alert("Can't buy negative numbers of an item");
-			return false;
+		return false;
 	}
 	else if (document.getElementsByName("shipping")[2].checked === false && document.getElementsByName("shipping")[1].checked === false && document.getElementsByName("shipping")[0].checked === false)
 	{

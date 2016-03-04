@@ -14,6 +14,7 @@
 	(int) $ftotal = $_POST["feces"];
 	$stotal = 0;
 	$stype = "";
+
 	if ($_POST["shipping"] == "Free 7 day")
 	{
 		(int) $stotal = 0;
