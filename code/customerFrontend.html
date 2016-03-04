@@ -1,0 +1,36 @@
+<html>
+<head>
+	<script type="text/javascript"
+				 src="formChecker.js">
+	</script>
+	<link href= "style.css"
+            rel= "stylesheet"
+            type= "text/css" />
+</head>
+<body>
+	<form onsubmit = "return validation()" action = "customerBackend.php" method = "post">
+		<p class = "user">Welcome!</p>
+		<p class = "user">
+			Username: <input name="username" type="text">
+			Password: <input name="password" type="text">
+		</p>
+		
+		<p class = "buy">Select things to buy (Input number):</p>
+		<p class = "buy">
+			Human Bones ($30.00): <input name="human" id = "human" type="text">
+			Dinosaur Bones ($50.00): <input name="dino" type="text">
+			Feces ($10.00): <input name="feces" type="text">
+		</p>
+		
+		<p class = "shipping">Shipping:</p>
+		<p class = "shipping">
+			<input type= "radio" name= "shipping" value= "Free 7 day"></input> Free 7 day
+			<input type= "radio" name= "shipping" value= "$50.00 over night"></input> $50.00 over night
+			<input type= "radio" name= "shipping" value= "$5.00 three day"></input> $5.00 three day
+		</p>
+		
+		<input value = "Reset" type = reset></input>
+		<input type = "submit"></input>
+	</form>
+</body>
+</html>

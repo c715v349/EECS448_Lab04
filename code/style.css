@@ -1,0 +1,59 @@
+table, th, td
+{
+	border: 1px solid #151B54;
+	font-family: Georgia;
+	font-size: 15pt;
+	color: #151B54;
+	background-color: #E5E4E2;
+	text-align: center;
+	padding: 10px;
+    white-space:nowrap;
+
+}
+p.receipt
+{
+	border: 1px solid #151B54;
+    background-color: #E5E4E2;
+	color: #151B54;
+	font-family: Georgia;
+    font-size: 14pt;
+	padding: 10px;
+}
+p.user
+{
+	border: 2px solid #0000A0;
+    background-color: #C3FDB8;
+	color: #660066;
+	font-family: Georgia;
+    font-size: 14pt;
+	padding: 10px;
+
+}
+p.buy
+{
+	border: 2px solid #0000A0;
+    background-color: #ccffff;
+	color: #660066;
+	font-family: Georgia;
+    font-size: 14pt;
+	padding: 10px;
+
+}
+p.shipping
+{
+	border: 2px solid #0000A0;
+    background-color: #F0F8FF;
+	color: #660066;
+	font-family: Georgia;
+    font-size: 14pt;
+	padding: 10px;
+}
+p.back
+{
+	border: 1px solid #800000;
+    background-color: #EBF4FA;
+	color: #990012;
+	font-family: Georgia;
+    font-size: 14pt;
+	padding: 10px;
+}
